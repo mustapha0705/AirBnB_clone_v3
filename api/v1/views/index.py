@@ -3,7 +3,6 @@ from flask import jsonify
 from models import storage
 
 
-
 @app_views('/status')
 def api_status():
     """ Response with the status of an api request."""
