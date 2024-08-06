@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """ Create FLask app and register the blueprint app_view app. """
 from flask import Flask
 from models import storage
